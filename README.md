@@ -17,6 +17,7 @@ const {ensureDirSync, ensureFileSync} = require('ensure-path')
  
  //ensure there hava a file
  ensureFileSync('./hello/world.txt')
+ // if file already exists, it will keep file abiding
 ```
 
 ## notice
