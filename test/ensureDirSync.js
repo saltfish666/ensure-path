@@ -15,7 +15,7 @@ describe('ensureDirSync', () => {
     ensureDirSync('./test')
     assert(true)
   })
-  it('should make a dir when give not a exist absolute path', () => {
+  it('should make a dir when give a not exist absolute path', () => {
     let dir = path.join(process.env.PWD, './test/foo/bar')
     ensureDirSync(dir)
     assert(fs.existsSync(dir) && fs.statSync(dir).isDirectory())
