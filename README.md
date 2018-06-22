@@ -2,7 +2,9 @@
 [![Build Status](https://travis-ci.org/saltfish666/ensure-path.svg?branch=master)](https://travis-ci.org/saltfish666/ensure-path)
 [![codecov](https://codecov.io/gh/saltfish666/ensure-path/branch/master/graph/badge.svg)](https://codecov.io/gh/saltfish666/ensure-path)
 [![npm version](https://badge.fury.io/js/ensure-path.svg)](https://badge.fury.io/js/ensure-path)
+![npm](https://img.shields.io/npm/dm/ensure-path.svg)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 ## What does this do?
 If you use `fs.mkdir('./foo/bar',callback)`,it will throws error if `foo` does not exist or `bar`
