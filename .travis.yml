@@ -9,6 +9,8 @@ os:
   - windows
 
 sudo: required
+before_install:
+  - npm rm --save-dev pre-commit
 install:
   - npm install
   - npm install -g codecov
